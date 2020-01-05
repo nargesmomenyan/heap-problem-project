@@ -109,7 +109,7 @@ export default {
     standalone: true,
     loaders: {
       vue: {
-        prettify: true
+        prettify: false
       }
     },
     /*
