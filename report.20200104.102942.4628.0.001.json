@@ -1,0 +1,557 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200104.102942.4628.0.001.json",
+    "dumpEventTime": "2020-01-04T10:29:42Z",
+    "dumpEventTimeStamp": "1578121182152",
+    "processId": 4628,
+    "cwd": "C:\\Users\\Mobayyen User\\Documents\\projects\\mobayyen-admin",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Mobayyen User\\Documents\\projects\\mobayyen-admin\\node_modules\\.bin\\\\..\\@nuxt\\typescript-runtime\\bin\\nuxt-ts.js",
+      "--max-old-space-size=4096"
+    ],
+    "nodejsVersion": "v12.13.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Education",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz",
+        "speed": 3498,
+        "user": 5105093,
+        "nice": 0,
+        "sys": 2867328,
+        "idle": 104052890,
+        "irq": 549734
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz",
+        "speed": 3498,
+        "user": 3937796,
+        "nice": 0,
+        "sys": 1139625,
+        "idle": 106947718,
+        "irq": 26843
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz",
+        "speed": 3498,
+        "user": 10440078,
+        "nice": 0,
+        "sys": 2919781,
+        "idle": 98665265,
+        "irq": 46781
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz",
+        "speed": 3498,
+        "user": 3804140,
+        "nice": 0,
+        "sys": 1051906,
+        "idle": 107169078,
+        "irq": 20109
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz",
+        "speed": 3498,
+        "user": 7230546,
+        "nice": 0,
+        "sys": 2207078,
+        "idle": 102587500,
+        "irq": 41250
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz",
+        "speed": 3498,
+        "user": 4195843,
+        "nice": 0,
+        "sys": 1376890,
+        "idle": 106452390,
+        "irq": 24468
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz",
+        "speed": 3498,
+        "user": 6525937,
+        "nice": 0,
+        "sys": 1951656,
+        "idle": 103547531,
+        "irq": 39812
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz",
+        "speed": 3498,
+        "user": 4585093,
+        "nice": 0,
+        "sys": 1605015,
+        "idle": 105835015,
+        "irq": 19484
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Kerio Virtual Network",
+        "internal": false,
+        "mac": "44:45:53:54:4f:53",
+        "address": "fe80::3d9f:6216:9501:e1b",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 7
+      },
+      {
+        "name": "Kerio Virtual Network",
+        "internal": false,
+        "mac": "44:45:53:54:4f:53",
+        "address": "10.189.101.6",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Ethernet 4",
+        "internal": false,
+        "mac": "ac:22:0b:cb:8f:0c",
+        "address": "fe80::58c3:7a9b:16ec:125a",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 6
+      },
+      {
+        "name": "Ethernet 4",
+        "internal": false,
+        "mac": "ac:22:0b:cb:8f:0c",
+        "address": "192.168.0.101",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:8d:26:77",
+        "address": "fe80::2de0:bb06:57c3:3b97",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 22
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:8d:26:77",
+        "address": "192.168.61.193",
+        "netmask": "255.255.255.240",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-0JKBDLC"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff65d1d1729",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff65d1d5b4c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff65d1d4b08",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff65d2c369b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff65dac82de",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff65dab0321",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff65d97dbec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff65d988f90",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff65d985ac4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff65d97b353",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff65d979b24",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x00007ff65d99adf5",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff65d706e19",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+4057"
+    },
+    {
+      "pc": "0x00007ff65def404d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x00007ff65de731b3",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+39923"
+    },
+    {
+      "pc": "0x0000027cda4d010b",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2172514304,
+    "totalCommittedMemory": 2172514304,
+    "usedMemory": 2096689328,
+    "availableMemory": 66276632,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 1116088,
+        "available": 15643720
+      },
+      "old_space": {
+        "memorySize": 1680715776,
+        "committedMemory": 1680715776,
+        "capacity": 1654542360,
+        "used": 1646199824,
+        "available": 8342536
+      },
+      "code_space": {
+        "memorySize": 5406720,
+        "committedMemory": 5406720,
+        "capacity": 4589440,
+        "used": 4589440,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 27529216,
+        "committedMemory": 27529216,
+        "capacity": 21098480,
+        "used": 21098480,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 423514112,
+        "committedMemory": 423514112,
+        "capacity": 422237904,
+        "used": 422237904,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 1531904,
+        "committedMemory": 1531904,
+        "capacity": 1415296,
+        "used": 1415296,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 398.484,
+    "kernelCpuSeconds": 22.39,
+    "cpuConsumptionPercent": 56.4174,
+    "maxRss": 2395779072,
+    "pageFaults": {
+      "IORequired": 4332090,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 19978,
+      "writes": 144
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\Mobayyen User\\Documents\\projects\\mobayyen-admin",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Mobayyen User\\AppData\\Roaming",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-0JKBDLC",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\Mobayyen User\\Documents\\projects\\mobayyen-admin\\node_modules\\.bin\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Mobayyen User",
+    "INIT_CWD": "C:\\Users\\Mobayyen User\\Documents\\projects\\mobayyen-admin",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Mobayyen User\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-0JKBDLC",
+    "MOZ_PLUGIN_PATH": "C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "development",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"dev\"],\"original\":[\"dev\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_msbuild_path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\MSBuild\\15.0\\Bin\\MSBuild.exe",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.19.1 npm/? node/v12.13.1 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "C:\\Program Files (x86)\\Yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "dev",
+    "npm_lifecycle_script": "nuxt-ts --max-old-space-size=4096",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_author_name": "arminkheirkhahan",
+    "npm_package_dependencies_animate_css": "^3.7.0",
+    "npm_package_dependencies_aws_sdk": "^2.596.0",
+    "npm_package_dependencies_babel_plugin_transform_decorators": "^6.24.1",
+    "npm_package_dependencies_cross_env": "^5.2.0",
+    "npm_package_dependencies_esm": "^3.2.25",
+    "npm_package_dependencies_filepond": "^4.7.2",
+    "npm_package_dependencies_filepond_plugin_file_validate_type": "^1.2.4",
+    "npm_package_dependencies_filepond_plugin_image_crop": "^2.0.3",
+    "npm_package_dependencies_filepond_plugin_image_edit": "^1.5.0",
+    "npm_package_dependencies_filepond_plugin_image_exif_orientation": "^1.0.6",
+    "npm_package_dependencies_filepond_plugin_image_preview": "^4.5.0",
+    "npm_package_dependencies_filepond_plugin_image_resize": "^2.0.4",
+    "npm_package_dependencies_filepond_plugin_image_transform": "^3.6.0",
+    "npm_package_dependencies_file_loader": "^4.3.0",
+    "npm_package_dependencies_fs": "0.0.1-security",
+    "npm_package_dependencies_highcharts": "^7.1.2",
+    "npm_package_dependencies_highcharts_vue": "^1.3.5",
+    "npm_package_dependencies_jwt_decode": "^2.2.0",
+    "npm_package_dependencies_lodash_debounce": "^4.0.8",
+    "npm_package_dependencies_lodash_es": "^4.17.15",
+    "npm_package_dependencies_material_design_icons": "^3.0.1",
+    "npm_package_dependencies_material_icons": "^0.3.1",
+    "npm_package_dependencies_minio": "^7.0.12",
+    "npm_package_dependencies_moment": "^2.24.0",
+    "npm_package_dependencies_moment_jalaali": "^0.8.3",
+    "npm_package_dependencies_nuxt": "^2.10.1",
+    "npm_package_dependencies_nuxt_leaflet": "0.0.19",
+    "npm_package_dependencies_nuxt_start": "^2.10.1",
+    "npm_package_dependencies_perfect_scrollbar": "^1.4.0",
+    "npm_package_dependencies_request": "^2.88.0",
+    "npm_package_dependencies_ts_loader": "^6.2.0",
+    "npm_package_dependencies_ts_node": "^8.4.1",
+    "npm_package_dependencies_typeface_roboto": "0.0.75",
+    "npm_package_dependencies_url_loader": "^3.0.0",
+    "npm_package_dependencies_vee_validate": "^2.2.15",
+    "npm_package_dependencies_vrwebdesign_nuxt": "2.0.5",
+    "npm_package_dependencies_vue2_leaflet": "^2.4.1",
+    "npm_package_dependencies_vuejs_dialog": "^1.4.1",
+    "npm_package_dependencies_vue_audio_recorder": "^3.0.1",
+    "npm_package_dependencies_vue_awesome_swiper": "^3.1.3",
+    "npm_package_dependencies_vue_beautiful_chat": "^2.3.1",
+    "npm_package_dependencies_vue_filepond": "^5.1.3",
+    "npm_package_dependencies_vue_focus_lock": "^1.3.2",
+    "npm_package_dependencies_vue_i18n": "^8.15.0",
+    "npm_package_dependencies_vue_i18n_extensions": "^0.2.1",
+    "npm_package_dependencies_vue_js_modal": "^1.3.31",
+    "npm_package_dependencies_vue_meta": "^2.3.1",
+    "npm_package_dependencies_vue_persian_datetime_picker": "^2.1.2",
+    "npm_package_dependencies_vue_property_decorator": "^8.3.0",
+    "npm_package_dependencies_vue_scrollto": "^2.17.1",
+    "npm_package_dependencies_vue_sticky_directive": "^0.0.8",
+    "npm_package_dependencies_vue_svg_loader": "^0.15.0",
+    "npm_package_dependencies_vue_the_mask": "^0.11.1",
+    "npm_package_dependencies__nuxtjs_axios": "^5.3.6",
+    "npm_package_dependencies__nuxtjs_proxy": "^1.3.3",
+    "npm_package_dependencies__nuxtjs_style_resources": "^1.0.0",
+    "npm_package_dependencies__nuxt_types": "^0.3.2",
+    "npm_package_dependencies__nuxt_typescript_runtime": "^0.1.5",
+    "npm_package_dependencies__types_node": "^12.11.7",
+    "npm_package_description": "My doozie Nuxt.js project",
+    "npm_package_devDependencies_deepmerge": "^4.1.1",
+    "npm_package_devDependencies_eslint_plugin_vuetify": "^1.0.0-beta.5",
+    "npm_package_devDependencies_fibers": "^4.0.1",
+    "npm_package_devDependencies_material_design_icons_iconfont": "^5.0.1",
+    "npm_package_devDependencies_nodemon": "^1.19.4",
+    "npm_package_devDependencies_sass": "^1.23.0",
+    "npm_package_devDependencies_sass_loader": "^8.0.0",
+    "npm_package_devDependencies_vuex_module_decorators": "^0.9.11",
+    "npm_package_devDependencies__mdi_font": "^4.5.95",
+    "npm_package_devDependencies__nuxtjs_vuetify": "^1.9.0",
+    "npm_package_devDependencies__nuxt_typescript": "^2.8.1",
+    "npm_package_devDependencies__nuxt_typescript_build": "^0.3.3",
+    "npm_package_devDependencies__types_dom_mediacapture_record": "^1.0.2",
+    "npm_package_name": "spin-admin",
+    "npm_package_private": "true",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_scripts_build": "nuxt-ts build",
+    "npm_package_scripts_dev": "nuxt-ts --max-old-space-size=4096",
+    "npm_package_scripts_generate": "nuxt-ts generate",
+    "npm_package_scripts_release": "git push origin next && git push origin master && git push dist next && git push dist master",
+    "npm_package_scripts_start": "nuxt-ts start",
+    "npm_package_version": "1.0.0",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "C:\\Users\\Mobayyen User\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\MOBAYY~1\\AppData\\Local\\Temp\\yarn--1578120435584-0.34517718131393527;C:\\Users\\Mobayyen User\\Documents\\projects\\mobayyen-admin\\node_modules\\.bin;C:\\Users\\Mobayyen User\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\nodejs\\;C:\\Users\\Mobayyen User\\.windows-build-tools\\python27\\;C:\\Users\\Mobayyen User\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\Mobayyen User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Mobayyen User\\AppData\\Local\\Yarn\\bin;C:\\Users\\Mobayyen User\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 60 Stepping 3, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3c03",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\Mobayyen User\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\MOBAYY~1\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.41.1",
+    "TMP": "C:\\Users\\MOBAYY~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-0JKBDLC",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-0JKBDLC",
+    "USERNAME": "Mobayyen User",
+    "USERPROFILE": "C:\\Users\\Mobayyen User",
+    "VUE_ENV": "server",
+    "windir": "C:\\Windows",
+    "YARN_WRAP_OUTPUT": "false",
+    "_AXIOS_BASE_URL_": "http://mobayyenapit1.mobayyen.net/api",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll",
+    "\\\\?\\C:\\Users\\Mobayyen User\\Documents\\projects\\mobayyen-admin\\node_modules\\fibers\\bin\\win32-x64-72\\fibers.node"
+  ]
+}

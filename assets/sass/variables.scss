@@ -1,0 +1,29 @@
+@import 'fonts/index';
+@import 'responsive';
+
+$bg-color: white !important;
+$primary-color: #168fd0;
+$accent-color: #6c7293 !important;
+$secondary-color: blue;
+$flaticon-font-path: "~assets/fonts/Flaticon";
+$form-info-color: #5a5a5a;
+$form-inactive-info-color: #a5a5a5;
+$form-info-selected-color: #168ccd;
+
+$info-bg-color: #eaf7ff;
+
+$form-clear-color: #f06a6a;
+$form-title-color: #707070;
+$form-caption-color: #5a5a5a;
+
+$success-bg-color: #d9ffde;
+$success-color: #629b3f;
+$success-border-color: #34a543;
+
+$error-bg-color: #ffe2e2;
+$error-border-color: #f06a6a;
+$error-color: #f06a6a;
+
+$warning-bg-color: #fff6d9;
+$warning-border-color: #f0ad6a;
+$warning-color: #f0ad6a;

@@ -1,0 +1,3 @@
+npm install numjs
+npm install sharp
+npm --add-python-to-path='true' --debug install --global windows-build-tools

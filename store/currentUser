@@ -1,0 +1,26 @@
+import { ICurrentUser } from '~/models/ICurrentUser'
+import { Module, VuexModule, Mutation, MutationAction } from 'vuex-module-decorators'
+
+@Module({ name: 'CurrentUserStore' })
+export default class CurrentUser extends VuexModule {
+    user: ICurrentUser = {
+        DisplayName: '',
+        UserId: 0,
+        RoleTitle: '',
+        RoleId: 0,
+        OrganizationTitle: '',
+        OrganizationId: 0,
+        RoleUserId: 0,
+        OrganizationRoleTitle: '',
+        LoginExpireDate: 0
+    };
+
+    @Mutation
+    setUser(userInfo: ICurrentUser) {
+        this.user = userInfo;
+    }
+
+    get userInfo() {
+        return this.user;
+    }
+}
